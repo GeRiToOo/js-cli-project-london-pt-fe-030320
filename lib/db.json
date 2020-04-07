@@ -1,22 +1,33 @@
 {
-  "books": [
-    {
-      "reviews": [
-        { "content": "i liked it", "rating": 4 },
-        { "rating": "3", "content": "great" },
-        { "rating": "1", "content": "hated it" },
-        { "rating": "10", "content": "srofgu" }
-      ],
-      "id": 1,
-      "title": "Good Book about Javascript"
-    },
-    {
-      "title": "Book about Ruby",
-      "reviews": [{ "rating": "3", "content": "hello" }],
-      "id": 2
-    },
-    { "title": "Book about Ruby", "reviews": [], "id": 4 },
-    { "title": "Book about Ruby", "reviews": [], "id": 5 },
-    { "title": "Book about Ruby", "reviews": [], "id": 6 }
-  ]
+    "posts": [{
+        "id": 1,
+        "title": "Check out this CLI!",
+        "content": "https://github.com/",
+        "upvotes": 245,
+        "downvotes": 18,
+        "comments": ["Looks cool", "Have an upvote", "It is stupid", "do not like it"]
+    }, {
+        "id": 2,
+        "title": "What is an API? In English, please.",
+        "content": "https://www.freecodecamp.org/news/what-is-an-api-in-english-please-b880a3214a82/",
+        "upvotes": 245,
+        "downvotes": 18,
+        "comments": ["Looks cool", "Have an upvote", {
+            "comments": "it is stupid"
+        }]
+    }, {
+        "id": 3,
+        "title": "JsonDatabase node-json-db",
+        "content": "https://www.npmjs.com/package/node-json-db",
+        "upvotes": 245,
+        "downvotes": 18,
+        "comments": ["Looks cool", "Have an upvote", "Bla blq", "bla blq"]
+    }, {
+        "id": 4,
+        "title": "Database File System",
+        "content": "https://docs.oracle.com/database/121/ADLOB/adlob_fs.htm#ADLOB46205",
+        "upvotes": 245,
+        "downvotes": 18,
+        "comments": ["Looks cool", "Have an upvote"]
+    }]
 }
