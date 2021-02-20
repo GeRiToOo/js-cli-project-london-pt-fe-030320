@@ -22,9 +22,9 @@ It uses a library called `readline-sync` to request user input.
 
 Here are some examples to get you thinking:
 
-- Reddit-style posts with comments, upvotes and downvotes
-- Movie listings with times, tickets, even seating allocations
-- Recipe organisr, users can create recipes and add tags, search through tagged recipes
+*  Reddit-style posts with comments, upvotes and downvotes
+*  Movie listings with times, tickets, even seating allocations
+*  Recipe organisr, users can create recipes and add tags, search through tagged recipes
 
 Feel free to make one of these suggestions or come up with something else.
 
