@@ -4,7 +4,7 @@ This is an example of a simple command line interface (CLI), written in Javascri
 
 ## Run the demo
 
-Run `npm install` then `npm start` to try the CLI.
+Run `npm install` then `npm start` to try the CLI (command line interface).
 
 ## How it works
 
